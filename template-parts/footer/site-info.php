@@ -15,4 +15,14 @@
 		the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 	}
 	?>
+	<span class="copyright">
+		<span>
+			<a href="mailto:andrevers.info@gmail.com" target="_blank">
+				<?php
+				/* translators: %s: WordPress trademark */
+				printf( esc_html__( 'Creato da %s', 'inspiro' ), 'Andrea Gondolo & Mattia Devigus' );
+				?>
+			</a>
+		</span>
+	</span>
 </div><!-- .site-info -->
